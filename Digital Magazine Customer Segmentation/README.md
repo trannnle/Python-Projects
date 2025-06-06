@@ -64,11 +64,11 @@ For this analysis, Gaussian Mixture Models (GMM) emerged as the best choice for 
 Here are the scatterplots created using all the variables/features (at least once):
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/14ae7407-481b-48c2-8bd1-ddc9537f4bab" width="400" height="300"/> 
-<img src="https://github.com/user-attachments/assets/3d49df6c-2eac-459a-81f8-498ba6c76362" width="400" height="300"/>
-<img src="https://github.com/user-attachments/assets/c6b9a8ce-6744-492a-a919-5473696cc3d9" width="400" height="300"/>
-<img src="https://github.com/user-attachments/assets/e10a0cc7-21db-40cc-80fe-dc29d67d06eb" width="400" height="300"/>
-<img src="https://github.com/user-attachments/assets/58d44eeb-e1cf-47fd-bffe-34db5be654e3" width="400" height="300"/>
+<img src="https://github.com/user-attachments/assets/20279447-4d01-4803-95bd-423601ace4ca" width="400" height="300"/> 
+<img src="https://github.com/user-attachments/assets/78817ead-c344-4d89-922d-b7eb11ede939" width="400" height="300"/>
+<img src="https://github.com/user-attachments/assets/1674efee-57ab-42e6-b49a-8bc96f4de89b" width="400" height="300"/>
+<img src="https://github.com/user-attachments/assets/1886d017-f57d-4f01-b213-c1178d9ab27a" width="400" height="300"/>
+<img src="https://github.com/user-attachments/assets/774ba68b-4c91-43c0-8f69-c0ef14fb16e3" width="400" height="300"/>
 
 
 
@@ -90,9 +90,9 @@ We applied cosine similarity as the distance metric (also called affinity) and a
 ### Behavioral Clustering Model
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/c1100020-3a69-4f09-b29c-6aefc36fbec2" width="400" height="300"/>
-<img src="https://github.com/user-attachments/assets/88e7fbde-a0e7-4e45-8d8e-9b0bc4369eb7" width="400" height="300"/>
-<img src="https://github.com/user-attachments/assets/73d025f6-9b3b-47dc-a129-6b1cdbe1f0e2">
+<img src="https://github.com/user-attachments/assets/fdfb9edc-dd3a-4461-a22e-45165729b47f" width="400" height="300"/>
+<img src="https://github.com/user-attachments/assets/ecaa7c62-e218-44f2-8a16-b04fee303af6" width="400" height="300"/>
+<img src="https://github.com/user-attachments/assets/efc1638b-c807-4673-93be-21dc968b6604">
 
 
 
@@ -106,24 +106,24 @@ Understanding the behaviors of each cluster enables the company to recommend spe
 
 <p align="center">
 
-<img src="https://github.com/user-attachments/assets/9d9421d3-aa22-4d48-80b9-f46c5429faa0">
+<img src="https://github.com/user-attachments/assets/6893f349-8aac-4e7c-919e-f366780abc1f">
 
 <p align="center">
 
-<img src="https://github.com/user-attachments/assets/55b973eb-3666-47d1-b5a7-f9b438609468" width="400" height="300"/>
-<img src="https://github.com/user-attachments/assets/0bbbf379-cf70-4178-aaf1-383209a3e8ac" width="400" height="300"/>
-<img src="https://github.com/user-attachments/assets/a89787e7-d14c-4e08-81db-f9a07ab7e58d" width="400" height="300"/>
-<img src="https://github.com/user-attachments/assets/a6ccc50f-34ac-44c6-b994-68019bed1c1b" width="400" height="300"/>
-<img src="https://github.com/user-attachments/assets/4443ae23-f301-4446-858a-a22a80543de5" width="400" height="300"/>
-<img src="https://github.com/user-attachments/assets/228729c7-faaa-4b35-8f45-34317155b39a" width="400" height="300"/>
-<img src="https://github.com/user-attachments/assets/ffc5febf-85c4-4542-aaad-82cc960782c1" width="400" height="300"/>
-<img src="https://github.com/user-attachments/assets/d6f0a77e-754b-4096-87ef-d6dc3175c94b" width="400" height="300"/>
-<img src="https://github.com/user-attachments/assets/59100009-3bb0-4396-8761-b4cf785bccdb" width="400" height="300"/>
-<img src="https://github.com/user-attachments/assets/2aae12c8-d44c-4a65-925a-55f18680bbaa" width="400" height="300"/>
+<img src="https://github.com/user-attachments/assets/e1f9fb5e-ba9e-467c-a5a1-343f9e7eaaba" width="400" height="300"/>
+<img src="https://github.com/user-attachments/assets/cb87c1e2-36a3-487c-bd06-794cba3bf447" width="400" height="300"/>
+<img src="https://github.com/user-attachments/assets/0cea093d-aef1-4d83-9533-0a33c985d2cb" width="400" height="300"/>
+<img src="https://github.com/user-attachments/assets/5f9646a3-99ab-4f1c-882c-38689bf82cdc" width="400" height="300"/>
+<img src="https://github.com/user-attachments/assets/d3eda2ff-079a-430c-926d-78c7acac864a" width="400" height="300"/>
+<img src="https://github.com/user-attachments/assets/194fe14b-fc6f-40b2-b2e2-4b934bd1c196" width="400" height="300"/>
+<img src="https://github.com/user-attachments/assets/0e03891e-5c81-406c-b07d-983f3bed8658" width="400" height="300"/>
+<img src="https://github.com/user-attachments/assets/859fdf4a-e141-43c1-a1f4-80d2194e7e11" width="400" height="300"/>
+<img src="https://github.com/user-attachments/assets/314a0b00-8d0c-48b5-8a47-7ca5a17eae26" width="400" height="300"/>
+<img src="https://github.com/user-attachments/assets/bc6043df-fdac-48c7-8381-8acf0e78df0d" width="400" height="300"/>
 
 <p align="center">
   
-<img src="https://github.com/user-attachments/assets/db68cabe-9689-413d-8738-c9aa04cd0e8c"/>
+<img src="https://github.com/user-attachments/assets/e77c109a-388a-4cc8-b6a4-309cee4dabfd"/>
 
 
 
