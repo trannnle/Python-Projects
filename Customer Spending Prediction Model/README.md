@@ -50,11 +50,11 @@ The Polynomial Regression model takes it a step further by allowing for more com
     <tr>
       <td align="center">
         <strong>Linear Regression</strong><br>
-        <img src="https://github.com/user-attachments/assets/af4948c8-d87f-4af9-a966-9b6990e1dd29" width="400">
+        <img src="https://github.com/user-attachments/assets/218b2dd6-0e57-486c-ad12-2ff4b10fc83d" width="400">
       </td>
       <td align="center">
         <strong>Polynomial Regression (n=2)</strong><br>
-        <img src="https://github.com/user-attachments/assets/81ea573d-24eb-4265-af91-abf42dd31b18" width="400">
+        <img src="https://github.com/user-attachments/assets/8dce94c1-1947-4ea4-80b4-fee9db33abd9" width="400">
       </td>
     </tr>
   </table>
@@ -71,24 +71,24 @@ Using Polynomial Features helped enhance the polynomial model's performance. The
 ### Question 1: Does being in the experimental test_group actually increase the amount a customer spends at the store? Is this relationship different for the different genders?
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/70e5ec57-34e3-46e1-b1e2-4adb01e91562" width="600" height="400"/>
+<img src="https://github.com/user-attachments/assets/e9133919-4fe9-47c0-9700-e3e1fd416656" width="600" height="400"/>
 
 Looking at the box plot, it seems like people in the test group are spending more money than those who aren't. The line in the middle of the box shows the average amount spent, and in this case, the test group’s line is higher. This means that most people in the test group are buying more stuff at the store. There are also some people in the test group who spent a lot more than the average (outliers). This could mean that being part of the test group helps customers spend more money overall, so it looks like being in that group does make a difference in how much they spend.
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/7800e85b-7fc6-47f5-9203-2a60fec6654f" width="600" height="400"/>
+<img src="https://github.com/user-attachments/assets/852be408-36c6-472c-958f-b6d103979532" width="600" height="400"/>
 
 This box plot shows how much different genders spend if they are part of the test group or not. Each color in the box plot represents a different gender, making it easier to compare. When we look closely, we can see that one gender might be spending more money than the other in both groups. Women tend to be spending more compared to the other genders (regardless if they are in the test group or not). The size of the boxes tells us how much people’s spending varies, and we can see that some groups have a bigger range, meaning some people spend a lot more than others.
 
 ### Question 2: In this dataset, is there a relationship between salary and height? Is it different for the different genders?
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/8f84c4e8-a4ee-4474-84a3-3e8e8bce7a24" width="600" height="400"/>
+<img src="https://github.com/user-attachments/assets/b31ddce8-620f-4622-be9f-9add8b617d15" width="600" height="400"/>
 
 The first plot shows the overall relationship between salary and height for everyone in the dataset. From the graph, there is a slight negative trend, as indicated by the red line sloping downward. This suggests that as height increases, salary tends to decrease a little. However, this trend is not very strong, as the data points are scattered widely around the line. The spread of the points shows that there is a lot of variation in salary that isn’t explained by height, meaning height does not seem to have a significant impact on how much people earn. While the downward slope of the line shows a minor pattern, the relationship between height and salary is weak in this dataset.
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/4f87f3ed-7e69-4562-baa4-66128d58d939" width="600" height="400"/>
+<img src="https://github.com/user-attachments/assets/40b00385-031f-47a5-a241-250553cfd97a" width="600" height="400"/>
 
 The second set of graphs breaks down the relationship between salary and height by gender, and the trends vary across the different groups. For men, the red trend line slopes upward slightly, indicating a small positive relationship between height and salary; taller men tend to have higher salaries. In contrast, for women, the red line slopes downward, showing that taller women tend to have slightly lower salaries. For nonbinary individuals and those classified as "other," the red lines are nearly flat, which means there is no noticeable relationship between height and salary for these groups. These gender-based differences suggest that while height may influence salary for men and women, it does not have the same effect across all genders. Overall, the relationship between salary and height is weak and varies by gender.
 
