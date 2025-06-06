@@ -57,13 +57,13 @@ The models for both the streaming churn and mushroom classification tasks perfor
   <tr>
     <td align="center">
       <strong>Logistic Regression</strong><br>
-      <img src="https://github.com/user-attachments/assets/a86182b5-acc3-40dd-977a-913e4cd9ae06" width="600"><br>
-      <img src="https://github.com/user-attachments/assets/2772b88c-2a71-49c4-a9c9-169c3c008622" width="600" height="400">
+      <img src="https://github.com/user-attachments/assets/6f665ec9-c283-465d-b991-becb9f3b1c80" width="600"><br>
+      <img src="https://github.com/user-attachments/assets/26542936-b10a-4558-bed0-d34c370733b0" width="600" height="400">
     </td>
     <td align="center">
       <strong>Gradient Boosting Tree</strong><br>
-      <img src="https://github.com/user-attachments/assets/8995e2ec-4958-4df0-9fb4-f803c55a6083" width="600"><br>
-      <img src="https://github.com/user-attachments/assets/7d8a890c-0c23-4f2e-af72-44e834a83906" width="600" height="400">
+      <img src="https://github.com/user-attachments/assets/42c813fe-eb78-4db8-bc47-9f6ad0bb9070" width="600"><br>
+      <img src="https://github.com/user-attachments/assets/d6a3d69b-fc5e-4a5d-866a-6ad6f3e877eb" width="600" height="400">
     </td>
   </tr>
 </table>
@@ -80,7 +80,7 @@ For the CEO, the streaming model chosen (likely Logistic Regression for simplici
 For the ethical implications of the streaming churn model, ethical concerns are less severe but could arise if users are targeted or incentivized based on behavioral predictions, potentially raising privacy concerns. Ensuring transparency and user consent in the use of churn predictions could address these issues. 
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/0dcd5986-eae3-4052-b45e-7ff500b4d223" width="600" height="400"/>
+<img src="https://github.com/user-attachments/assets/72630bfc-b485-43a1-920e-e910d59688d6" width="600" height="400"/>
 
 This graph shows how a customer’s favorite genre—Comedy, Drama, Romantic Comedy, Science Fiction, or Thriller—affects their likelihood to stop using the service (churn). For Comedy, Drama, and Romantic Comedy, the churn probabilities are similar and don’t vary much. This suggests that fans of these genres are generally consistent and less likely to churn. In contrast, Science Fiction and Thriller show more variation, with some customers in these genres having a higher risk of churning.
 
@@ -92,15 +92,15 @@ As a business owner, you could use this information to keep more customers engag
   <tr>
     <td align="center">
       <strong>Categorical Naive Bayes</strong><br>
-      <img src="https://github.com/user-attachments/assets/4f221b11-700a-4dc7-9859-47be109daeb8" height="200">
+      <img src="https://github.com/user-attachments/assets/669730ca-fa72-495f-a4b6-8d77ef4845bc" height="200">
     </td>
     <td align="center">
       <strong>K-Nearest Neighbors (KNN)</strong><br>
-      <img src="https://github.com/user-attachments/assets/95470ced-5b98-448f-8980-a4c3821bd21b" height="200">
+      <img src="https://github.com/user-attachments/assets/b2162d2f-2d4b-42cf-a87d-780db36c7a0e" height="200">
     </td>
     <td align="center">
       <strong>Logistic Regression</strong><br>
-      <img src="https://github.com/user-attachments/assets/44712ec6-b77b-4564-8bfb-9332339e04c6" height="200">
+      <img src="https://github.com/user-attachments/assets/ed529bb3-92eb-4ade-ac16-5ed78c9a9d0b" height="200">
     </td>
   </tr>
 </table>
@@ -117,7 +117,7 @@ For calibration, the mushroom models showed strong alignment between predicted p
 The mushroom classification model could be used directly in a mushroom detector app, where the Logistic Regression model’s high accuracy and simplicity would offer reliable results. Confidence in this model’s output is high given the excellent Recall and Precision metrics, although more confidence could come from validating the model on a larger, more varied mushroom dataset.
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/5cbbcd5e-5f7d-49bf-a3dd-01f35a1586e0">
+<img src="https://github.com/user-attachments/assets/498b0106-7507-4ce2-ae74-f22481494bca">
 
 For the ethical implications of the mushroom detector app, the primary concern is user safety; if the model misclassifies a poisonous mushroom as safe, the consequences could be severe. Thus, we must ensure the model’s high reliability and potentially implement safeguards like requiring a second model to confirm “safe” classifications. 
 
