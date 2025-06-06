@@ -97,13 +97,13 @@ This analysis is effective in answering the research question by providing both 
 <table>
   <tr>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/81a491a4-a2c8-47fb-817b-e7806c54ee7e"><br>
+      <img src="https://github.com/user-attachments/assets/2563acf4-e560-434e-8ffa-cd3c51bdffca"><br>
     </td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/253ef0dd-be60-470d-80c9-94121c8d749d"><br>
+      <img src="https://github.com/user-attachments/assets/b598d8a0-14c4-4377-a647-6d28939873d0"><br>
     </td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/f1c9a01b-eb9b-4d00-b9de-1c0d350b7edb"><br>
+      <img src="https://github.com/user-attachments/assets/1bf8eea9-9109-4a48-a5b3-642df1303ad2"><br>
     </td>
   </tr>
 </table>
@@ -119,7 +119,7 @@ The TikTok model shows even weaker results than Spotify and YouTube, with an ext
 The models' high MSE and MAE values across all platforms further confirm that predictions based solely on the explicit nature of a song are not reliable. While the data suggests some minimal correlation in specific cases, the explicit content alone is not a strong predictor of performance across these platforms.
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/62b2ae29-638b-449a-b6ea-15a74f62d60e" width="600" height="400"/>
+<img src="https://github.com/user-attachments/assets/b245c23b-43ef-4940-ae76-e9783233bd8b" width="600" height="400"/>
 
 
 Across all three platforms, the results suggest that the Explicit Track label has a very limited impact on the performance of songs. The R² values for both training and testing sets are low, and in many cases, negative, meaning that the models are not useful for predicting performance based on the explicit label. This indicates that factors other than whether a song is explicit likely play a much larger role in determining its performance on Spotify, YouTube, and TikTok.
@@ -128,13 +128,13 @@ Across all three platforms, the results suggest that the Explicit Track label ha
 <table>
   <tr>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/9e8ee49d-609b-4a44-b063-0755020c1968">
+      <img src="https://github.com/user-attachments/assets/d84b0e09-6f79-45be-a41b-6f1aa1c120ae">
     </td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/45d48a34-6fd9-4119-adb6-0cfe47062e56">
+      <img src="https://github.com/user-attachments/assets/69ecada1-99a9-4161-870a-0ad542259b76">
     </td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/1892fe13-38b5-4d81-81a3-9cb26472b76c">
+      <img src="https://github.com/user-attachments/assets/cedd2d2a-8d03-4d5a-88e7-66fb971fccf2">
     </td>
   </tr>
 </table>
@@ -166,18 +166,32 @@ The results of the K-Means clustering were visualized with scatterplots, where e
 
 ### Results
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/32b305b1-e18e-4213-882f-85511b0ff26b" width="500" height="350">
-  <img src="https://github.com/user-attachments/assets/4979d5c6-8bbd-41ed-8cd5-0a8a758d50b7" width="500" height="350">
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/825f75b1-5a3b-40e1-a313-417a6ad2631a">
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/f6a4dcf2-abda-4d60-857f-fab6e7a8a27a">
+    </td>
+  </tr>
+</table>
 
 
 Based on the scatterplot of Spotify Streams vs YouTube Views, where we applied K-Means with n_clusters = 2, the model does show some ability to group the data. However, the clustering results reveal some challenges. The two clusters appear to be mostly separated, but there is significant overlap, especially in the lower range of values. The larger cluster, which encompasses most of the data points, includes both songs with low and mid-range views/streams, making it less distinct than expected. Meanwhile, the smaller cluster contains only a few outliers, which are likely songs with exceptionally high performance on both platforms. Overall, while K-Means does provide some level of clustering, it doesn’t completely capture the underlying structure of the data, as the separation between clusters is not very clear. The significant overlap, particularly in the lower range of values, suggests that K-Means may not be the best method for this dataset without further tuning or additional features. Alternative clustering methods or a more nuanced choice of n_clusters could improve the results.
 
 
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/d9a182f0-ed9a-47f3-8674-5c5875959fd8" width="500" height="350">
-  <img src="https://github.com/user-attachments/assets/dcf797db-5718-4101-a246-5de7d0e89982" width="500" height="350">
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/249ae825-edaf-42b4-a4d0-6a97668972b1">
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/e7524a5e-851c-4559-aeac-30bc09db0274">
+    </td>
+  </tr>
+</table>
 
   
 Based on the scatterplot of Pandora Streams vs. SoundCloud Streams, where we applied K-Means with n_clusters = 3, the model reveals a mixed level of clustering success. While the model attempts to group the data into three distinct clusters, the results suggest significant overlap between some of these groups. Cluster 1, represented by green, effectively captures outliers or isolated groups with lower stream counts, indicating some level of accuracy in identifying distinct patterns. Cluster 0, represented in red, dominates the lower-left section of the graph, encompassing the majority of data points with low to moderate streams. However, this cluster shows considerable overlap with Cluster 2, represented in blue, particularly in the mid-range values of both SoundCloud and Pandora streams. The blue cluster appears to target medium to high-performing streams, but the overlap with the red cluster diminishes its distinctiveness. These results suggest that while K-Means provides a general grouping of the data, the clusters are not entirely separable. This may indicate that the underlying structure of the data does not conform well to three distinct clusters, or it may suggest that further feature engineering, preprocessing, or the selection of a different clustering approach could improve the model’s performance.
